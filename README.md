@@ -46,7 +46,7 @@ This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` noteboo
 
 ## External Evaluation
 
-The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. The results of this comparison are saved in the `data/compare_results.csv` file.
+The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. The results of this comparison are saved in the `results/compare_results.csv` file.
 
 ## Repository Structure
 
@@ -57,7 +57,6 @@ The model was further evaluated using other online prediction tools, such as VCC
   - `data_paper.csv`
   - `unique_train4_new24.csv`
   - `unique_test_new24.csv`
-  - `compare_results.csv`
   - `overlap_data_new.csv`
 
 - **notebooks/**: Jupyter notebooks containing the analysis, preprocessing, and model training code.
@@ -72,6 +71,7 @@ The model was further evaluated using other online prediction tools, such as VCC
 
 - **results/**: Contains the comparative model results.
   - `model_results.csv`
+  - `compare_results.csv`
 
 ## Conclusion
 
