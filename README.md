@@ -34,6 +34,9 @@ Once the training and test datasets were finalized, various models were trained 
 The study explored a wide range of descriptors to improve model performance:
 - **Basic to Advanced Descriptors**: The `utilities.py` script generates combinations of descriptors ranging from 4 basic descriptors to 123 advanced descriptors, including fingerprints of varying lengths (from 128 bits to 1024 bits).
 - **Feature Engineering**: The `feature_fg7_fe_38.ipynb` notebook introduces 38 feature-engineered descriptors and 7 functional group descriptors.
+## Complete Descriptors
+
+The complete list of descriptors used in this project is provided in the [descriptors.md](descriptors.md) file.
 
 ### Model Evaluation
 
