@@ -36,7 +36,7 @@ The study explored a wide range of descriptors to improve model performance:
 - **Feature Engineering**: The `feature_fg7_fe_38.ipynb` notebook introduces 38 feature-engineered descriptors and 7 functional group descriptors.
 ## Complete Descriptors
 
-The complete list of descriptors used in this project is provided in the [descriptors.md](descriptors.md) file.
+The complete list of descriptors used in this project is provided in the [descriptors_detail.md](descriptors_detail.md) file.
 
 ### Model Evaluation
 
