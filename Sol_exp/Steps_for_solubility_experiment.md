@@ -1,4 +1,4 @@
-# Steps for Solubility Experiment
+# Steps for Solubility Measurement in the Lab Experiment
 
 ## 1. Select the Compound
 - **Criteria**: Choose the compound based on toxicity, hazardousness, availability, and ease of handling.
