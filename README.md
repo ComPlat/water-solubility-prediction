@@ -52,6 +52,15 @@ This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` noteboo
 
 The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. The results of this comparison are saved in the `results/compare_results.csv` file.
 
+## Model Performance Comparison
+
+We have compared our model's performance with the Sorkun model and the VCC online predictor on five specific compounds. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the `Sol_exp` folder which has excel file for more detail abaout the Solubility experimet:
+
+- **Experimental Procedure**: Step-by-step process available in the `Steps_for_solubility_experiment.md` file.
+
+This comparison highlights the accuracy and reliability of our model.
+
+
 ## Repository Structure
 
 - **data/**: Contains all datasets used in the study.
