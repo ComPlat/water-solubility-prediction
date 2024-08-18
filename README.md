@@ -82,6 +82,10 @@ This comparison highlights the accuracy and reliability of our model.
   - `model_results.csv`
   - `compare_results.csv`
 
+- **Sol_exp/**: Contains the Experimental solubility values for five specific compounds..
+  - `model_results.csv`
+  - `compare_results.csv`
+
 ## Conclusion
 
 This study presents a thorough investigation into the prediction of water solubility using machine learning models. By carefully curating datasets, engineering features, and comparing with state-of-the-art methods, the study provides insights into the challenges and opportunities in this field. The findings highlight the importance of data preprocessing and feature selection in building robust predictive models.
