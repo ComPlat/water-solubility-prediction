@@ -3,6 +3,9 @@
 ## Overview
 
 This repository contains the code, data, and models used in a comprehensive study on water solubility prediction. The study focuses on training and testing various machine learning models using curated datasets from literature and benchmark datasets, comparing the performance of different descriptors, and evaluating the models against existing state-of-the-art methods.
+## Workflow from data gathering, preprocesiing, model training and prediction of solubility 
+
+![Workflow](./wf.png)
 
 ## Datasets
 
