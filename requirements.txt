@@ -1,0 +1,45 @@
+torch==2.0.1
+torch_geometric
+pyscf
+requests[security] == 2.9.1 
+beautifulsoup4
+numpy
+pandas
+pandas~=1.4.2
+xgboost~=1.6.1
+scikit-learn~=1.0.1
+rdkit-pypi~=2022.3.3
+matplotlib~=3.5.1
+#torch==1.13.0
+deepchem==2.6.1
+dgl==0.9.1 
+dgllife==0.2.9
+tensorflow
+mordred
+seaborn
+karateclub
+#mol2vec 
+--extra-index-url --find-links https://github.com/samoturk/mol2vec
+#selenium
+######## 
+--extra-index-url --find-links https://download.pytorch.org/whl/cu113
+#torch 
+#--extra-index-url --find-links https://download.pytorch.org/whl/cu113
+#torchvision 
+#--extra-index-url --find-links https://download.pytorch.org/whl/cu113
+#torchaudio 
+rdkit-pypi
+deepchem
+scikit-learn
+uamc-spectrophore
+numba
+opencv-python
+joblib
+tqdm
+lightgbm 
+pubchempy
+bs4
+lxml
+Catboost
+openpyxl
+xlrd
