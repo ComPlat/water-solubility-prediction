@@ -96,6 +96,28 @@ To install the required Python packages for this project, you can use the `requi
 
 pip install -r requirements.txt
 
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch-name
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any questions or further information, you can contact:
+
+- **Dev Punjabi** - [mushtaq.ali@kit.edu](mailto:dev.punjabi@kit.edu)
+- **Nicole Jung** - [nicole.jung@kit.edu](mailto:nicole.jung@kit.edu)
+
+- **Institution**:  - [https://www.ibcs.kit.edu](https://www.ibcs.kit.edu)
+
 ## Conclusion
 
 This study presents a thorough investigation into the prediction of water solubility using machine learning models. By carefully curating datasets, engineering features, and comparing with state-of-the-art methods, the study provides insights into the challenges and opportunities in this field. The findings highlight the importance of data preprocessing and feature selection in building robust predictive models.
