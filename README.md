@@ -89,6 +89,13 @@ This comparison highlights the accuracy and reliability of our model.
   - `EXP76_1593.xlsx`
   - `EXP8_260.xlsx`
   - `Steps_for_solubility_experiment.md`
+## Installation
+
+To install the required Python packages for this project, you can use the `requirements.txt` file. Run the following command:
+
+
+pip install -r requirements.txt
+
 ## Conclusion
 
 This study presents a thorough investigation into the prediction of water solubility using machine learning models. By carefully curating datasets, engineering features, and comparing with state-of-the-art methods, the study provides insights into the challenges and opportunities in this field. The findings highlight the importance of data preprocessing and feature selection in building robust predictive models.
