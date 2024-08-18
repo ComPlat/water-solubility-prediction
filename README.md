@@ -75,7 +75,7 @@ This comparison highlights the accuracy and reliability of our model.
   - `Sorkundata_improve_Preprocess.ipynb`
   - `mpnn.ipynb`
 
-- **scripts/**: Python scripts used in the study.
+- **scripts/**: Function to create the discriptors used in the study.
   - `utilities.py`
 
 - **results/**: Contains the comparative model results.
