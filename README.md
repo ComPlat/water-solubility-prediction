@@ -50,16 +50,11 @@ This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` noteboo
 
 ## External Evaluation
 
-The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. The results of this comparison are saved in the `results/compare_results.csv` file.
-
-## Model Performance Comparison
-
-We have compared our model's performance with the Sorkun model and the VCC online predictor on five specific compounds. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the `Sol_exp` folder which has excel file for more detail abaout the Solubility experimet:
+The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the `Sol_exp` folder which has excel file for more detail abaout the Solubility experimet.The results of this comparison are saved in the `results/compare_results.csv` file.
 
 - **Experimental Procedure**: Step-by-step process available in the `Steps_for_solubility_experiment.md` file.
 
 This comparison highlights the accuracy and reliability of our model.
-
 
 ## Repository Structure
 
@@ -91,4 +86,4 @@ This comparison highlights the accuracy and reliability of our model.
 
 This study presents a thorough investigation into the prediction of water solubility using machine learning models. By carefully curating datasets, engineering features, and comparing with state-of-the-art methods, the study provides insights into the challenges and opportunities in this field. The findings highlight the importance of data preprocessing and feature selection in building robust predictive models.
 
-For any questions or further information, please feel free to open an issue or contact the directly.
+For any questions or further information, please feel free to open an issue or contact me directly over mail id mushtaq.ali@kit.edu.
