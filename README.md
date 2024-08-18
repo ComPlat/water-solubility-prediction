@@ -87,7 +87,7 @@ This comparison highlights the accuracy and reliability of our model.
   - `EXP42_827.xlsx`
   - `EXP56_1562.xlsx`
   - `EXP76_1593.xlsx`
-  - 'EXP8_260.xlsx'
+  - `EXP8_260.xlsx`
   - `Steps_for_solubility_experiment.md`
 ## Conclusion
 
