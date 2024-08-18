@@ -113,7 +113,7 @@ This project is licensed under the MIT License.
 
 For any questions or further information, you can contact:
 
-- **Dev Punjabi** - [mushtaq.ali@kit.edu](mailto:dev.punjabi@kit.edu)
+- **Mushtaq Ali** - [mushtaq.ali@kit.edu](mailto:dev.punjabi@kit.edu)
 - **Nicole Jung** - [nicole.jung@kit.edu](mailto:nicole.jung@kit.edu)
 
 - **Institution**:  - [https://www.ibcs.kit.edu](https://www.ibcs.kit.edu)
