@@ -1,0 +1,17 @@
+,Model_Name,MAE,MSE,RMSE,R2,Descriptors_Detail
+1,XGB_4,0.5672,0.5318,0.7292,0.8725,4 features
+2,XGB_17,0.4481,0.3464,0.5886,0.9169,17 features
+3,XGB_125,0.4098,0.3092,0.5561,0.9259,125 features
+4,Sorkun_123,0.4255,0.3153,0.5615,0.9244,123 features used in the sorkuns works
+5,XGB_170,0.4276,0.3188,0.5646,0.9236,125_features + 7_f_group+38 fe_features
+6,XGB_253,0.4078,0.3073,0.5544,0.9263,125 features + 128 fingerprint
+7,XGB_260,0.4081,0.3071,0.5542,0.9264,125 features + 128 fingerprint 7 f_group
+8,XGB_298,0.4045,0.3036,0.551,0.9272,125 features + 128 fingerprint 7 f_group+38 fe features
+9,rf_298,0.4994,0.4115,0.6415,0.9013,"125_features + 128_fp , 7_f_group+ 38 fe_features+"
+10,gb_298,0.426,0.3238,0.569,0.9224,125_features + 7_f_group+38 fe_features+128_fp
+11,nn_298,0.5231,0.4922,0.7015,0.882,125_features + 7_f_group+38 fe_features+128_fp
+12,Graph based model,0.7135,0.8322,0.9135,0.8023,Message Passing Neural Network (MPNN)
+13,XGB_426,0.4057,0.3051,0.5524,0.9268,125_features + 7_f_group+38 fe_features+256_fp
+14,XGB_682,0.4107,0.3085,0.5555,0.926,125_features + 7_f_group+38 fe_features+512_fp
+15,XGB_1194,0.416,0.3108,0.5575,0.9255,125_features + 7_f_group+38 fe_features+1024_fp
+16,XGB_76,0.4462,0.3426,0.5853,0.9179,76 features_by_LASSO
