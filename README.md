@@ -25,7 +25,7 @@ Preprocessing of the datasets is conducted in the `data_preprocess_3_24.ipynb` n
 - **Removing duplicates**: Ensuring that no duplicate entries exist within the combined dataset.
 - **Canonical SMILES**: Generating canonical SMILES strings to identify and remove matching data points between the training and test datasets.
 - **Final Dataset**: After preprocessing, the final datasets are:
-  - Training data: **unique_train4_new24.csv** (16,737 samples)
+  - Training data: **unique_train4_new24.csv** (17,737 samples)
   - Test data: **unique_test_new24.csv** (1,282 samples)
 
 ## Model Training
