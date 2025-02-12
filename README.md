@@ -122,15 +122,16 @@ JCIM_test.xlsx' (given file)
   - `EXP76_1593.xlsx`
   - `EXP8_260.xlsx`
   - `Steps_for_solubility_experiment.md`
+
 ## Installation
 
-## **1. Clone the Repository**  
-```bash
+**1. Clone the Repository**  
+
 git clone https://github.com/ComPlat/water-solubility-prediction.git
 cd your-repo
 
-## **2. Create the virtula environment**
-```bash  
+**2. Create the virtula environment**
+ 
 python -m venv venv  
 source venv/bin/activate  # On Windows use: venv\Scripts\activate  
 pip install -r requirements.txt
