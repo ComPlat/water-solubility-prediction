@@ -125,11 +125,12 @@ JCIM_test.xlsx' (given file)
 
 ## Installation
 
-## **1. Clone the Repository**  
+**1. Clone the Repository**  
 Run the following command to clone the repository:  
 ```bash
 git clone https://github.com/ComPlat/water-solubility-prediction.git
 cd water-solubility-prediction
+
 **on mac**
 
 python -m venv venv
@@ -140,7 +141,7 @@ python -m venv venv
 venv\Scripts\activate
 
 ** run the jupyter notebbok ceel by cell to reproduce the results 
-
+  '''bash
 
 
 
