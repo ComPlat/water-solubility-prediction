@@ -127,14 +127,14 @@ JCIM_test.xlsx' (given file)
 
 **1. Clone the Repository**  
   '''bash
-git clone [https://github.com/ComPlat/water-solubility-prediction.git]
-cd your-repo
+-git clone [https://github.com/ComPlat/water-solubility-prediction.git]
+-cd your-repo
 
-**2. Create the virtula environment**
+**2. Create the virtual environment**
  '''bash
-python -m venv venv  
-source venv/bin/activate  # On Windows use: venv\Scripts\activate  
-pip install -r requirements.txt
+-python -m venv venv  
+-source venv/bin/activate  on mac # On Windows use: venv\Scripts\activate  
+-pip install -r requirements.txt
 
 Run the notebook cell by cell (Shift + Enter) to reproduce the results.
 
