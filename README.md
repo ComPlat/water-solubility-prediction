@@ -135,10 +135,12 @@ Run the following command to clone the repository:
 **on mac**
 
  -python -m venv venv
+ 
  -source venv/bin/activate
 
 **on windows**
  -python -m venv venv
+ 
  -venv\Scripts\activate
 
 ** run the jupyter notebbok cell by cell to reproduce the results 
