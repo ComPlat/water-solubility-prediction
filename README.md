@@ -71,15 +71,18 @@ JCIM_test.xlsx' (given file)
   - `Supplementary_data.csv`
   - `data_paper.csv`
   - `dataset1-E.csv`
+    
   **data/raw_data**: contains raw data with C_ID and inchikey for tracking the data **(Suggested by reviewer)** 
   - `Dataset-A.csv`
   - `Dataset-B.csv`
   - `Dataset-C.csv`
   - 'Dataset-D.csv'
   - 'Dataset-E.csv'
+    
   **data/raw_curated**: contains all combined and merged data in single file train and test
   - 'curated_raw_test.csv'
   - 'curated_raw_train.csv'
+    
   **data/final_data**: contains all unique data which can be used for training the model
   - 'final_unique_train.csv'
   - 'final_unique_test.csv'
@@ -89,6 +92,8 @@ JCIM_test.xlsx' (given file)
   **data/sorkun_data**:contains data which we have used to improve the sorkun preprocessing steps and also included 133 compounds whic overlap between train and test data
   - 'Sorkun_test.csv'
   - 'Sorkun_train.csv'
+  - 'overlap_data_new1.csv'
+    
 - **notebooks/**: Jupyter notebooks containing the analysis, preprocessing, and model training code.
   - `data_preprocess_3_24.ipynb`
   - `4_24.ipynb`
