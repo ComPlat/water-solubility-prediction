@@ -56,9 +56,8 @@ This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` noteboo
 ## External Evaluation
 
 The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the **Sol_exp** folder which has excel file for more detail abaout the Solubility experimet.The results of this comparison are saved in the **Results/compare_results.csv**` file.
-
-## We have also evaluated our model on the JCIM data suggested by reviewer
-## Predciction on this data given the in the folder JCIM_Predcition 
+We have also evaluated our model on the JCIM data suggested by reviewer
+Predciction on this data given the in the folder **JCIM_Predcition** 
 'JCIM_set1_prediction.csv' (Prediction result on set1 )
 'JCIM_set2_prediction.csv' (Prediction result on set2 )
 JCIM_test.xlsx' (given file)
@@ -125,19 +124,18 @@ JCIM_test.xlsx' (given file)
   - `Steps_for_solubility_experiment.md`
 ## Installation
 
-To install the required Python packages for this project, you can use the `requirements.txt` file. Run the following command:
+## **1. Clone the Repository**  
+```bash
+git clone https://github.com/ComPlat/water-solubility-prediction.git
+cd your-repo
 
-
+## **2. Create the virtula environment**
+```bash  
+python -m venv venv  
+source venv/bin/activate  # On Windows use: venv\Scripts\activate  
 pip install -r requirements.txt
 
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch-name
+Run the notebook cell by cell (Shift + Enter) to reproduce the results.
 
 ## License
 
