@@ -86,29 +86,37 @@ JCIM_test.xlsx' (given file)
   **data/final_data**: contains all unique data which can be used for training the model
   - 'final_unique_train.csv'
   - 'final_unique_test.csv'
-  **data/duplicate_data**:contains duplicates data from train and test 
+    
+  **data/duplicate_data**:contains duplicates data from train and test while preprocessing 
   - 'duplicates_test18.csv'
   - 'duplicates_train15427.csv'
-  **data/sorkun_data**:contains data which we have used to improve the sorkun preprocessing steps and also included 133 compounds whic overlap between train and test data
+    
+  **data/sorkun_data**:contains data which we have used to improve the sorkun preprocessing steps and also included 133 compounds whic 
+     overlap between train and test data
   - 'Sorkun_test.csv'
   - 'Sorkun_train.csv'
   - 'overlap_data_new1.csv'
     
+  **data/JCIM_Prediction**:contains predcited result  along with original data from the link **(Suggested by reviewer)**
+   - 'JCIM_set1_prediction.csv'
+   - 'JCIM_set2_prediction.csv'
+     
 - **notebooks/**: Jupyter notebooks containing the analysis, preprocessing, and model training code.
-  - `data_preprocess_3_24.ipynb`
-  - `4_24.ipynb`
-  - `feature_fg7_fe_38.ipynb`
+  - `data_preprocess_new.ipynb`
+  - `model_traning.ipynb`
+  - `feature_engineered_analysis.ipynb`
   - `Sorkundata_improve_Preprocess.ipynb`
-  - `mpnn.ipynb`
+  - 'standard_deviation.ipynb'
+  - `JCIM_test.ipynb`
 
 - **scripts/**: Function to create the discriptors used in the study.
   - `utilities.py`
 
 - **results/**: Contains the comparative model results.
-  - `model_results.csv`
-  - `compare_results.csv`
+  - `model_results_new1.csv`
+  - `compare_results_new1.csv`
 
-- **Sol_exp/**: Contains the Experimental solubility values for five specific compounds..
+- **Sol_exp/**: Contains the Experimental solubility values for five specific compounds and experiment steps 
   - `EXP40_823.xlsx`
   - `EXP42_827.xlsx`
   - `EXP56_1562.xlsx`
