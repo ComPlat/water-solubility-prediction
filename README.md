@@ -31,7 +31,7 @@ Preprocessing of the datasets is conducted in the `data_preprocess_new.ipynb` no
 
 ## Model Training
 
-Once the training and test datasets were finalized, various models were trained and evaluated. The training process and model evaluation are detailed in the `model_traning.ipynb` notebook.
+Once the training and test datasets were finalized, various models were trained and evaluated. The training process and model evaluation are detailed in the `model_traning.ipynb` in the folder **notebook**.
 
 ### Descriptors and Feature Engineering
 
@@ -55,20 +55,23 @@ This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` noteboo
 
 ## External Evaluation
 
-The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the `Sol_exp` folder which has excel file for more detail abaout the Solubility experimet.The results of this comparison are saved in the `results/compare_results.csv` file.
+The model was further evaluated using other online prediction tools, such as VCC Lab, and compared against Sorkun's model using self-experimented compound solubility data. These compounds were experimentally tested in the lab to obtain their solubility values. The experimental details and results are provided in the **Sol_exp** folder which has excel file for more detail abaout the Solubility experimet.The results of this comparison are saved in the **Results/compare_results.csv**` file.
 
-- **Experimental Procedure**: Step-by-step process available in the `Steps_for_solubility_experiment.md` file.
-
-This comparison highlights the accuracy and reliability of our model.
+## We have also evaluated our model on the JCIM data suggested by reviewer
+## Predciction on this data given the in the folder JCIM_Predcition 
+'JCIM_set1_prediction.csv' (Prediction result on set1 )
+'JCIM_set2_prediction.csv' (Prediction result on set2 )
+JCIM_test.xlsx' (given file)
 
 ## Repository Structure
 
-- **data/**: Contains all datasets used in the study.
+- **data/Sourced_data**: Contains all datasets used in the study.
   - `water_solubility_data.csv`
   - `dataset-not-FA.csv`
   - `Supplementary_data.csv`
   - `data_paper.csv`
-  - `dataset-E.csv`
+  - `dataset1-E.csv`
+  **data/Sourced_data**:
   - `unique_train4_new24.csv`
   - `unique_test_new24.csv`
   - `overlap_data_new.csv`
