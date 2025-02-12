@@ -45,13 +45,13 @@ The complete list of descriptors used in this project is provided in the [descri
 
 ### Model Evaluation
 
-The best-performing model and its parameters were selected based on minimizing the Mean Absolute Error (MAE). The comparative results are stored in the `model_results.csv` file. Additionally, the performance of the Message Passing Neural Network (MPNN) model is evaluated and stored in the `mpnn.ipynb` notebook.
+The best-performing model and its parameters were selected based on minimizing the Mean Absolute Error (MAE). The comparative results are stored in the `model_results.csv` file and 'compare_results_new.csv'in the folder **Results**.
 
 ## Comparison with Sorkun's Work
 
 The study also includes a detailed comparison with Sorkun et al.'s work, which used the same benchmark dataset (`dataset-E.csv`). A crucial finding was the presence of overlapping data between the training and test sets in Sorkun's preprocessing. After removing these overlaps, the MAE increased from 0.35 to 0.54, indicating the importance of proper data preprocessing.
 
-This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` notebook, with the overlapping compounds listed in the `overlap_data_new.csv` file.
+This analysis is documented in the `Sorkundata_improve_Preprocess.ipynb` notebook, with the overlapping compounds listed in the `overlap_data_new.csv` and sorkin train and test data in the folder **data/sorkun_data** file.
 
 ## External Evaluation
 
