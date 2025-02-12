@@ -127,7 +127,7 @@ JCIM_test.xlsx' (given file)
 
 **1. Clone the Repository**  
 
-git clone https://github.com/ComPlat/water-solubility-prediction.git
+git clone [https://github.com/ComPlat/water-solubility-prediction.git]
 cd your-repo
 
 **2. Create the virtula environment**
