@@ -125,18 +125,23 @@ JCIM_test.xlsx' (given file)
 
 ## Installation
 
-**1. Clone the Repository**  
-  '''bash
--git clone [https://github.com/ComPlat/water-solubility-prediction.git]
--cd your-repo
+## **1. Clone the Repository**  
+Run the following command to clone the repository:  
+```bash
+git clone https://github.com/ComPlat/water-solubility-prediction.git
+cd water-solubility-prediction
+**on mac**
 
-**2. Create the virtual environment**
- '''bash
--python -m venv venv  
--source venv/bin/activate  on mac # On Windows use: venv\Scripts\activate  
--pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate
 
-Run the notebook cell by cell (Shift + Enter) to reproduce the results.
+**on windows**
+python -m venv venv
+venv\Scripts\activate
+
+** run the jupyter notebbok ceel by cell to reproduce the results 
+
+
 
 
 ## License
