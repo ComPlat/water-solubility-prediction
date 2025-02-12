@@ -22,22 +22,23 @@ The combined dataset results in a total of 28,859 datapoints.
 
 ### Preprocessing
 
-Preprocessing of the datasets is conducted in the `data_preprocess_3_24.ipynb` notebook. The steps include:
+Preprocessing of the datasets is conducted in the `data_preprocess_new.ipynb` notebook. The steps include:
 - **Removing duplicates**: Ensuring that no duplicate entries exist within the combined dataset.
 - **Canonical SMILES**: Generating canonical SMILES strings to identify and remove matching data points between the training and test datasets.
-- **Final Dataset**: After preprocessing, the final datasets are:
-  - Training data: **unique_train4_new24.csv** (17,737 samples)
-  - Test data: **unique_test_new24.csv** (1,282 samples)
+- **Final Dataset**: After preprocessing, the final datasets are in the folder **data/final_data**  and files are 
+  - Training data: **final_unique_train.csv** (17,737 samples)
+  - Test data: **final_unique_.csv** (1,282 samples)
 
 ## Model Training
 
-Once the training and test datasets were finalized, various models were trained and evaluated. The training process and model evaluation are detailed in the `4_24.ipynb` notebook.
+Once the training and test datasets were finalized, various models were trained and evaluated. The training process and model evaluation are detailed in the `model_traning.ipynb` notebook.
 
 ### Descriptors and Feature Engineering
 
 The study explored a wide range of descriptors to improve model performance:
-- **Basic to Advanced Descriptors**: The `utilities.py` script generates combinations of descriptors ranging from 4 basic descriptors to 123 advanced descriptors, including fingerprints of varying lengths (from 128 bits to 1024 bits).
-- **Feature Engineering**: The `feature_fg7_fe_38.ipynb` notebook introduces 38 feature-engineered descriptors and 7 functional group descriptors.
+- **Basic to Advanced Descriptors**: The `utilities.py` in the notebook folder script generates combinations of descriptors ranging from 4 basic descriptors to 123 advanced descriptors, including fingerprints of varying lengths (from 128 bits to 1024 bits).
+- **Feature Engineering**: The `feature_engineered_analysis.ipynb` in the folder **notebook** introduces 38 feature-engineered descriptors and 7 functional group descriptors.
+
 ## Complete Descriptors
 
 The complete list of descriptors used in this project is provided in the [descriptors_detail.md](descriptors_detail.md) file.
@@ -117,7 +118,7 @@ This project is licensed under the MIT License.
 
 For any questions or further information, you can contact:
 
-- **Mushtaq Ali** - [mushtaq.ali@kit.edu](mailto:dev.punjabi@kit.edu)
+- **Mushtaq Ali** - [mushtaq.ali@kit.edu](mailto:mushtaq.alii@kit.edu)
 - **Nicole Jung** - [nicole.jung@kit.edu](mailto:nicole.jung@kit.edu)
 
 - **Institution**:  - [https://www.ibcs.kit.edu](https://www.ibcs.kit.edu)
