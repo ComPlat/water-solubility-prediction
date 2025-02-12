@@ -9,7 +9,8 @@ This repository contains the code, data, and models used in a comprehensive stud
 
 ## Datasets
 
-The study utilizes four primary datasets for training and testing, which are sourced from the literature. These datasets are combined, preprocessed, and then split into final training and test sets. The datasets used are:
+The study utilizes four primary datasets for training and testing, which are sourced from the literature. These datasets are combined, preprocessed, and then split into final training and test sets. The datasets used are in the folder of 
+**data/sourced_data** 
 
 1. **water_solubility_data.csv** (900 samples)
 2. **dataset-not-FA.csv** (6,154 samples)
