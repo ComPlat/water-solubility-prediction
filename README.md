@@ -71,7 +71,7 @@ JCIM_test.xlsx' (given file)
   - `data_paper.csv`
   - `dataset1-E.csv`
     
-  **data/raw_data**: contains raw data with C_ID and inchikey for tracking the data **(Suggested by reviewer)** 
+  **data/raw_data**: contains raw data with C_ID and inchikey for tracking the data 
   - `Dataset-A.csv`
   - `Dataset-B.csv`
   - `Dataset-C.csv`
@@ -96,7 +96,7 @@ JCIM_test.xlsx' (given file)
   - 'Sorkun_train.csv'
   - 'overlap_data_new1.csv'
     
-  **data/JCIM_Prediction**:contains predcited result  along with original data from the link **(Suggested by reviewer)**
+  **data/JCIM_Prediction**:contains predcited result  along with original data from the link which we have predicted on the train data 17884 as we have removed 37 mathcing data ponits frpm set1 and 16 matching data points from set2 in order to have fair comparison. 
    - 'JCIM_set1_prediction.csv'
    - 'JCIM_set2_prediction.csv'
      
