@@ -82,7 +82,7 @@ JCIM_test.xlsx' (given file)
   - 'curated_raw_test.csv'
   - 'curated_raw_train.csv'
     
-  **data/final_data**: contains all unique data which can be used for training the model
+  **data/final_data**: contains all unique data which can be used for training the model. ( Removing the duplicates within the train data and also remove the matching smiles which match of the test set. 
   - 'final_unique_train.csv'
   - 'final_unique_test.csv'
     
