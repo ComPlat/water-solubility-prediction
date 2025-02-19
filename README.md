@@ -144,6 +144,11 @@ Run the following command to clone the repository:
  
  venv\Scripts\activate
 
+**intsall requirements.txt**
+
+ pip install -r requirements.txt
+
+
 ** run the jupyter notebbok cell by cell to reproduce the results 
   
 
