@@ -132,22 +132,22 @@ Run the following command to clone the repository:
 
 - cd water-solubility-prediction
 
-**Create Conda Environment with Python 3.9.5**  
+**2 Create Conda Environment with Python 3.9.5**  
 
   - conda create -n solubility-env python=3.9.5
 
   - conda activate solubility-env
 
-**Install Dependencies**  
+**3 Install Dependencies**  
 
   - pip install -r requirements.txt
 
-**Install the New Environment as a Jupyter Kernel**  
+**4 Install the New Environment as a Jupyter Kernel**  
 - pip install ipykernel
 - python -m ipykernel install --user --name=solubility-env --display-name "Python 3.9.5(solubility-env)"
 
-
-** run the jupyter notebbok cell by cell to reproduce the results 
+**5 Select the kernel Python 3.9.5(solubility-env)**    
+  * Run the jupyter notebbok cell by cell to reproduce the results 
   
 
 ## License
