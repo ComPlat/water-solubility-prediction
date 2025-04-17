@@ -1,0 +1,10 @@
+name: rdkit-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - rdkit=2023.09.5
+  - jupyter
+  - pip
+
+prefix: /opt/miniconda3/envs/rdkit-env
