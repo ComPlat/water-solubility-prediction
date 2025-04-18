@@ -2,7 +2,7 @@ name: rdkit-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.8.11
   - rdkit=2023.09.5
   - jupyter
   - pip
