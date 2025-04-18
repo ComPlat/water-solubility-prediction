@@ -123,7 +123,7 @@ JCIM_test.xlsx' (given file)
   - `EXP8_260.xlsx`
   - `Steps_for_solubility_experiment.md`
 
-## Installation
+## Installation step for reproduce
 
 **1 Clone the Repository**  
 Run the following command to clone the repository:  
@@ -134,16 +134,14 @@ Run the following command to clone the repository:
 
 **2 Create Conda Environment with Python 3.8.**  
 
-  - conda env create -f environment.yml
-  - conda activate rdkit-env
-  - pip install ipykernel
-  - python -m ipykernel install --user --name rdkit-env --display-name "Python 3.8 (RDKit)"
-
-**3 Install Dependencies**  
-
+  - conda create --name env python=3.8.11
+  - conda activate env
+  - conda install -c conda-forge rdkit=2023.9.5
   - pip install -r requirements.txt
+  - pip install ipykernel
+  - python -m ipykernel install --user --name env --display-name "Python 3.8 (env)"
 
-**4 Select the kernel Python 3.9.5(solubility-env)**    
+**3 Select the kernel Python 3.9.5(solubility-env)**    
   * Run the jupyter notebbok cell by cell to reproduce the results 
   
 
