@@ -1,4 +1,4 @@
-name: rdkit-env
+name: myenv5
 channels:
   - conda-forge
 dependencies:
@@ -7,4 +7,4 @@ dependencies:
   - jupyter
   - pip
 
-prefix: /opt/miniconda3/envs/rdkit-env
+prefix: /opt/miniconda3/envs/myenv5
