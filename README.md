@@ -136,7 +136,7 @@ Run the following command to clone the repository:
 
   - conda create  --name env python=3.8.11
   - conda activate env
-  - conda install -c conda -forge rdkit=2023.9.5
+  - conda install -c conda-forge rdkit=2023.9.5
   - pip install -r requirements.txt
   - pip install ipykernel
   - python -m ipykernel install --user --name env --display-name "Python 3.8 (env)"
