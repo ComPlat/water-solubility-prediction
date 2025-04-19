@@ -1,7 +1,8 @@
 torch==2.0.1
 torch_geometric
 pyscf
-requests[security] == 2.9.1 
+tensorflow
+#requests[security] == 2.9.1 
 numpy==1.24.4   
 pandas~=1.4.2
 xgboost~=1.6.1
