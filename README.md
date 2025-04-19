@@ -123,7 +123,7 @@ JCIM_test.xlsx' (given file)
   - `EXP8_260.xlsx`
   - `Steps_for_solubility_experiment.md`
 
-## Installation step for reproduce
+## Installation step 
 
 **1 Clone the Repository**  
 Run the following command to clone the repository:  
