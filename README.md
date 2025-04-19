@@ -141,7 +141,7 @@ Run the following command to clone the repository:
   - pip install ipykernel
   - python -m ipykernel install --user --name env --display-name "Python 3.8 (env)"
 
-**3 Select the kernel Python 3.9.5(solubility-env)**    
+**3 Select the kernel Python 3.8 (env))**    
   * Run the jupyter notebbok cell by cell to reproduce the results 
   
 
