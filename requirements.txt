@@ -1,6 +1,5 @@
 torch==2.0.1
 torch_geometric
-pyscf
 tensorflow
 #requests[security] == 2.9.1 
 numpy==1.24.4   
